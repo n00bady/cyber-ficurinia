@@ -665,7 +665,7 @@ header {
                         padding: #{$margin/2} $margin;
                     }
                 {{ else }}
-                    border-right: 1px solid var(--default_accent);
+                    // border-right: 1px solid var(--default_accent);
                     &:last-child {
                         border-right: none;
                     }
