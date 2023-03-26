@@ -1,3 +1,6 @@
+# My Notes
+In the process of modifying for use on my personal site.
+
 ![logo](static/logo.svg)
 
 # Ficurinia
