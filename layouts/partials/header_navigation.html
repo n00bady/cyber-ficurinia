@@ -8,7 +8,7 @@
             <li><a href="/posts">{{ i18n "posts" }}</a></li>
         {{ end }}
         {{ range site.Params.extraContentDirs }}
-            <li><a href="/{{ . }}">{{ . | humanize }}</a></li>
+            <li><a href="/{{ . }}">/{{ . }}</a></li>
         {{ end }}
         {{ $pagesDir := .Site.Params.Pages | default (slice "pages") }}
         {{ $pagesList := where .Site.RegularPages "Section" "in" $pagesDir }}
