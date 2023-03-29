@@ -134,6 +134,10 @@ main {
   border: dotted var(--default_accent);
 }
 
+hr {
+  color: var(--default_accent);
+}
+
 @mixin linkLike {
     color: var(--default_fg);
     text-decoration: none;
@@ -200,6 +204,7 @@ footer {
     }
     hr {
         margin-top: (2 * $margin);
+        color: var(--default_accent);
     }
     .footerColumns {
         font-size: .9 * $base_font_size * $main_font_mult;
@@ -650,8 +655,10 @@ header {
         }
     }
     nav:not(#TableOfContents) {
-        font-size: .9em;
+        font-size: 1em;
         ul {
+          border: dashed var(--default_accent);
+          background: var(--default_main_bg);
             li {
                 {{ if eq .Site.Params.menuStyle "buttons" }}
                     margin: 5px 2px;
@@ -685,6 +692,8 @@ header {
                         color: var(--default_accent);
                         &:hover {
                             text-decoration: underline;
+                            color: var(--default_fg);
+                            transition: all 0.5s ease-in-out;
                         }
                     }
                 {{ end }}
