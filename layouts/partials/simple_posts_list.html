@@ -1,4 +1,4 @@
-<h2>
+<h2 class="simple_post_list_title">
     {{ $title := .Title }}
     {{ $section := .Section | humanize }}
     {{ if and (ne $section $title) (ne $section "Tags") (ne $title (printf "%ss" $section)) }}

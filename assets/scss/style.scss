@@ -120,7 +120,7 @@ body, html {
     padding: 0;
     background-color: var(--default_bg);
     background: url(/bg.gif);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     color: var(--default_fg);
 }
 
@@ -131,7 +131,7 @@ body {
 
 main {
   background-color: var(--default_main_bg);
-  border: dotted var(--default_accent);
+  border: dashed var(--default_accent);
 }
 
 hr {
@@ -402,6 +402,7 @@ h6 {font-size: 0.7 * $base_font_size * $title_font_mult;}
 .card {
     display: block;
     padding-bottom: $margin;
+    margin: 10px;
 
     {{ if (.Site.Params.paperCards | default false) }}
         background-color: var(--default_hl_bg);
@@ -1248,6 +1249,9 @@ header.jumbotronContainer {
 
 {{ end }}
 
+.simple_post_list_title {
+  margin: 10px;
+}
 
 // transitions at the end so that loading css doens't cause animations
 
