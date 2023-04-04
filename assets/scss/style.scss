@@ -198,6 +198,7 @@ a.unstyledLink {
 }
 
 footer {
+    font-size: #{0.9 * $base_font_size};
     color: var(--default_dim_fg);
     a {
         color: var(--default_dim_fg);
