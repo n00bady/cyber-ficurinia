@@ -7,7 +7,10 @@ In the process of modifying for use on my personal site.
 
 A Cyber version of [ficurian](https://gitlab.com/gabmus/hugo-ficurinia) for use in my [personal website](https://n00bady.xyz)
 
+My modifications:
 ![With my modifications](images/mysite.png)
+
+Original:
 ![Original](images/tn.png)
 
 # [Demo](https://gabmus.org)
