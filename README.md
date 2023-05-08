@@ -1,21 +1,24 @@
 # My Notes
 In the process of modifying for use on my personal site.
 
-![logo](static/logo.svg)
+<img src="static/logo.svg" width="200"/>
 
-# Ficurinia
+# Cyber Ficurinia
 
-A prickly blog theme for Hugo
+A Cyber version of [ficurian](https://gitlab.com/gabmus/hugo-ficurinia) for use in my [personal website](https://n00bady.xyz)
 
-![](images/tn.png)
+![With my modifications](images/mysite.png)
+![Original](images/tn.png)
 
 # [Demo](https://gabmus.org)
 
-[Code for the demo website](https://gitlab.com/gabmus/gabmus.gitlab.io) (really my personal website)
+[Code for the demo website](https://gitlab.com/gabmus/gabmus.gitlab.io) (gabmus personal website)
 
 [Screenshot gallery](https://gabmus.gitlab.io/hugo-ficurinia-screenshots/) showcasing 256 of the possible configurations that Ficurinia offers.
 
 # Customization
+
+Most things here will be left untouched, probably...
 
 ## Configuration
 
