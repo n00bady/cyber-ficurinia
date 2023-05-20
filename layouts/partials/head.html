@@ -1,9 +1,4 @@
 <head>
-  <style>
-    body {
-      background-color: #000000;
-    }
-  </style>
     {{ if .Site.Params.forceRedirect }}
         <script>
             if (location.host != new URL("{{ .Site.BaseURL }}").host) location.href = "{{ .Site.BaseURL }}"

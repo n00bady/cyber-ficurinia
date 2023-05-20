@@ -118,7 +118,7 @@ body, html {
     font-size: $base_font_size * $main_font_mult;
     margin: 0;
     padding: 0;
-    // background-color: var(--default_bg);
+    background-color: var(--default_bg) !important;
     background: url(/bg.gif);
     background-size: 100% 100%;
     color: var(--default_fg);
